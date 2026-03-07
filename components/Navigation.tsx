@@ -11,12 +11,18 @@ export default function Navigation() {
       <div className="w-full max-w-[1440px]  flex items-center justify-between px-4 lg:px-40">
         <Image src={SplitoLogo} alt="Splito" width={102} height={33} />
 
-        <div className="flex items-center gap-4">
-          <Link href={getDashboardUrl("")}>
-            <Button size="sm" variant="primary" showArrow>
-              Launch App
+        <div className="flex items-center gap-3">
+        <Link href={getDashboardUrl("organization")}>
+            <Button size="sm" variant="secondary">
+              Splito for Teams
             </Button>
           </Link>
+          <Link href={getDashboardUrl("")}>
+            <Button size="sm" variant="primary">
+              Splito for Individuals
+            </Button>
+          </Link>
+         
         </div>
       </div>
     </nav>
