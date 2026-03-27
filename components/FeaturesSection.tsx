@@ -5,45 +5,45 @@ const features = [
   {
     icon: "/icons/flash-icon.svg",
     iconAlt: "Flash icon",
-    title: "1. Quick setup",
+    title: "1. Create your group",
     description:
-      "Get up and running in just a few minutes by connecting your preferred crypto wallet.",
+      "Set up a group for your trip, apartment, team, or project in seconds. No wallet required to start.",
   },
   {
     icon: "/icons/user-add-icon.svg",
     iconAlt: "User add icon",
-    title: "2. Add Friends",
+    title: "2. Add expenses as they happen",
     description:
-      "Bring your friends on board by inviting them directly to start managing expenses as a group",
+      "Log any expense, split it equally or custom, across any currency. Splito handles the math.",
   },
   {
     icon: "/icons/dashboard-edit-icon.svg",
     iconAlt: "Dashboard edit icon",
-    title: "3. Create Splits",
+    title: "3. See who owes what, always",
     description:
-      "Divide up costs effortlessly for shared transactions, assigning specific amounts to each person.",
+      "Real-time balances across friends, groups, and currencies. Send reminders with one tap.",
   },
   {
     icon: "/icons/cash-icon.svg",
     iconAlt: "Cash icon",
-    title: "4. Settle Balances",
+    title: "4. Settle your way",
     description:
-      "Wrap things up by settling all outstanding balances on-chain with their preferred tokens.",
+      "Pay back via your preferred method — settle on-chain with Aptos or Stellar, or mark it paid off-chain.",
   },
 ];
 
 export default function FeaturesSection() {
   return (
-    <section className="container mx-auto py-16 md:py-32 lg:py-44 px-4">
+    <section className="container mx-auto py-16 md:py-24 lg:py-32 px-4">
       {/* Section Header */}
       <div className="mb-8">
         <h2 className="text-white font-medium font-general-sans text-2xl md:text-3xl lg:text-[44.81px] leading-[1.3] md:leading-[1.74] mb-4 md:mb-6">
-          Say Goodbye to Unorganised Splits
+          From split to settled in four steps
         </h2>
 
         <p className="text-slate-50/60 font-inter font-normal text-sm md:text-[15.13px] leading-[1.59] max-w-[500px]">
-          Instead of keeping track of multiple expenses, organise them in one
-          place with Splito in a few simple steps.
+          Stop juggling spreadsheets and IOUs. Splito tracks every expense,
+          calculates every balance, and settles every debt — automatically.
         </p>
       </div>
 

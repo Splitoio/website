@@ -10,19 +10,23 @@ import { cn } from "@/lib/utils";
 const benefits = [
   {
     number: 1,
-    title: "One Central Dashboard for all your Splits",
+    title: "One Central Dashboard",
+    description:
+      "Your net balance, group breakdowns, and friend debts in one place. No spreadsheets, no mental math.",
     image: "/images/dashboard-1.png",
   },
   {
     number: 2,
-    title: "Stay organized with different groups",
+    title: "Groups for every context",
+    description:
+      "Trip with friends, apartment with roommates, project with colleagues. Each group tracks its own expenses and members.",
     image: "/images/dashboard-2.png",
   },
   {
     number: 3,
-    title: "Multiple Wallet Support",
+    title: "Settle on any chain",
     description:
-      "Connect multiple wallets and clear your splits in your preferred currency, on your preferred chain!",
+      "Connect Aptos, Stellar, or multiple wallets. Settle in the token you prefer, on the chain you prefer.",
     hasArrow: true,
     isLast: true,
     image: "/images/dashboard-3.png",
@@ -49,13 +53,13 @@ export default function BenefitsSection() {
   }, [progress, benefits.length, autoPlayInterval]);
 
   return (
-    <section className="relative py-12 md:py-24 lg:py-32 px-4">
+    <section className="relative pt-0 pb-28 md:pb-36 lg:pb-48 px-4 container mx-auto">
       <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0">
         {/* Left Content */}
         <div className="lg:p-20 lg:sticky lg:top-0 lg:h-[555.56px]">
           <div className="mb-6 md:mb-10">
             <h2 className="text-white text-2xl md:text-3xl lg:text-[45px] font-medium leading-[1.3] md:leading-[1.493] font-general-sans">
-              Splito is the right way to clear your Splits
+              Built for how you actually split expenses
             </h2>
           </div>
 

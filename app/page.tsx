@@ -1,5 +1,6 @@
 import Navigation from "../components/Navigation";
 import HeroSection from "../components/HeroSection";
+import SocialProofBar from "../components/SocialProofBar";
 import FeaturesSection from "../components/FeaturesSection";
 import DashboardSection from "../components/DashboardSection";
 import BenefitsSection from "../components/BenefitsSection";
@@ -16,12 +17,11 @@ export default function Home() {
     >
       <Navigation />
       <HeroSection />
+      {/* <SocialProofBar /> */}
       <FeaturesSection />
       <DashboardSection />
       <BenefitsSection />
-      <div className="py-12 md:py-16 lg:py-[96px]">
-        <CTASection />
-      </div>
+      <CTASection />
       <Footer />
     </div>
   );

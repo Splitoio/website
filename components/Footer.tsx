@@ -1,87 +1,51 @@
-import React from "react";
-import Logo from "@/assets/logo.png";
 import Image from "next/image";
+import SplitoIcon from "@/assets/splito-icon.png";
 
-interface FooterLink {
-  text: string;
-  href?: string;
+function XIcon() {
+  return (
+    <svg
+      width="18"
+      height="18"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      aria-hidden="true"
+    >
+      <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.746l7.73-8.835L1.254 2.25H8.08l4.258 5.63 5.906-5.63Zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+  );
 }
-
-interface FooterSection {
-  title: string;
-  links: FooterLink[];
-}
-
-const sections: FooterSection[] = [
-  {
-    title: "Links",
-    links: [
-      { text: "Blog" },
-      { text: "Help center" },
-      {
-        text: "Become an affiliate",
-      },
-      {
-        text: "Leave us a testimonial",
-      },
-      { text: "Join our discord" },
-    ],
-  },
-  {
-    title: "Socials",
-    links: [{ text: "Discord" }, { text: "Telegram" }, { text: "X" }],
-  },
-  {
-    title: "Legal",
-    links: [
-      {
-        text: "Terms & Conditions",
-      },
-      { text: "Privacy Policy" },
-    ],
-  },
-];
 
 export default function Footer() {
   return (
-    <footer className="w-full border-t border-[#1F1F1F] px-4 md:px-8 lg:px-[144px] pt-12 md:pt-16 lg:pt-24 pb-8 md:pb-12 lg:pb-18">
-      <div className="relative flex flex-col md:flex-row gap-8 md:gap-16 lg:gap-32 items-start">
-        <Image
-          src={Logo}
-          alt={"logo"}
-          width={28}
-          height={28}
-          className="mb-4 md:mb-0"
-        />
-
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-12 lg:gap-16 w-full md:w-auto">
-          {sections.map((section, index) => (
-            <div key={index}>
-              <h3 className="text-white font-normal font-inter text-xs mb-4">
-                {section.title}
-              </h3>
-
-              <div className="space-y-0">
-                {section.links.map((link, linkIndex) => (
-                  <div
-                    key={linkIndex}
-                    className="h-[40px] px-[1px] py-2 rounded-md"
-                  >
-                    <span className="text-[#F8FAFC] text-sm font-medium font-inter hover:text-white transition-colors cursor-pointer">
-                      {link.text}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          ))}
+    <footer className="w-full border-t border-[#1F1F1F] px-4 md:px-8 lg:px-[144px] pt-14 pb-10">
+      <div className="flex flex-col md:flex-row items-center justify-between gap-10">
+        {/* Brand */}
+        <div className="flex flex-col gap-3">
+          <Image src={SplitoIcon} alt="Splito" width={96} height={31} />
+          <p className="text-[rgba(248,250,252,0.5)] text-sm font-inter max-w-[260px] leading-relaxed">
+            Making{" "}Crypto feel like{" "} Money.
+          </p>
         </div>
-      </div>
 
-      <div className="mt-8 md:mt-6 lg:mt-3 flex justify-center md:justify-end">
-        <span className="text-white text-[11.25px] font-normal leading-[1.422] font-inter text-center md:text-right">
-          © Copyright 2025, Splito
+        <span className="text-[rgba(248,250,252,0.3)] text-xs font-inter">
+          © {new Date().getFullYear()} Splito. All rights reserved.
         </span>
+
+        {/* Social */}
+        <a
+          href="https://x.com/splitodotio"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group flex items-center gap-2.5 px-4 py-2.5 rounded-xl border border-[#292929] bg-[#09090B] hover:border-[#09D1FD]/40 hover:bg-[#09D1FD]/5 transition-all duration-200"
+          aria-label="Splito on X"
+        >
+          <span className="text-[rgba(248,250,252,0.6)] group-hover:text-white transition-colors">
+            <XIcon />
+          </span>
+          <span className="text-[rgba(248,250,252,0.6)] group-hover:text-white text-sm font-inter transition-colors">
+            Follow us on X
+          </span>
+        </a>
       </div>
     </footer>
   );

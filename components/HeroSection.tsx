@@ -35,25 +35,28 @@ export default function HeroSection() {
         {/* Description */}
         <div className="text-center mb-10">
           <p className="text-[rgba(248,250,252,0.7)] text-lg font-normal leading-relaxed font-inter max-w-2xl mx-auto">
-            Effortlessly manage shared expenses and settle payments securely on
-            the blockchain with full transparency.
+            The expense platform for friend groups and teams. Track who owes
+            what, split any cost, and settle up on-chain or off.
+            Multi-currency, multi-wallet, zero friction.
           </p>
         </div>
 
         {/* CTA Buttons: Individuals & Teams */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-          
-          <Link href={getDashboardUrl("organization")}>
-            <Button size="lg" variant="secondary">
-              Splito for Teams
-            </Button>
-          </Link>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
           <Link href={getDashboardUrl()}>
             <Button size="lg" variant="primary">
-              Splito for Individuals
+              Try Splito Free
+            </Button>
+          </Link>
+          <Link href={getDashboardUrl("organization")}>
+            <Button size="lg" variant="secondary">
+              Explore Teams
             </Button>
           </Link>
         </div>
+        <p className="text-center text-[rgba(248,250,252,0.45)] text-sm font-inter mb-12">
+          For friend groups and teams with invoices, contracts & more
+        </p>
 
         {/* Dashboard Preview */}
         <div className="flex justify-center relative top-32">

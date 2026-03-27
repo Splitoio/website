@@ -5,16 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { getDashboardUrl } from "@/utils";
 
-const features = [
-  "Direct access to fast support, every step of the way",
-  "Personalized 1-1 onboarding by our founder",
-  "No hidden fees, no upsells, no BS",
-  "Dedicated support when you need it",
-];
-
 export default function CTASection() {
   return (
-    <section className="relative mx-4 md:mx-8 lg:mx-20 bg-[#09090B] rounded-[16px] md:rounded-[20px] overflow-hidden">
+    <section className="relative mx-4 md:mx-8 lg:mx-20 mt-16 md:mt-24 lg:mt-32 mb-16 md:mb-24 lg:mb-32 bg-[#09090B] rounded-[16px] md:rounded-[20px] overflow-hidden">
       {/* Background Patterns */}
       <div className="absolute inset-0">
         <Image
@@ -25,25 +18,19 @@ export default function CTASection() {
         />
       </div>
 
-      <div className="py-8 md:py-12 lg:py-16 flex flex-col items-center justify-centers gap-6 md:gap-8 relative z-10 px-4">
-        <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-medium text-center font-general-sans">
-          Best way to clear splits on-chain
+      <div className="py-12 md:py-16 lg:py-24 flex flex-col items-center justify-center gap-6 md:gap-8 relative z-10 px-6 md:px-12">
+        <p className="text-[#888] text-sm md:text-base font-normal leading-[1.7] text-center font-inter max-w-xl">
+          Free to use, no hidden fees, no premium tiers. Multi-currency and
+          multi-chain from day one. Whether you&apos;re splitting a dinner or
+          managing a shared house, Splito keeps it simple.
+        </p>
+
+        <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-medium text-center font-general-sans leading-[1.2] max-w-2xl">
+          Stop chasing payments. Start splitting smarter.
         </h2>
 
-        <div className="flex flex-col items-center gap-4 md:gap-[26px]">
-          <div className="flex flex-col items-center gap-3 md:gap-4">
-            {features.map((feature, index) => (
-              <div key={index} className="flex items-center gap-4">
-                <span className="text-white text-sm md:text-md font-normal leading-[1.6] text-center font-inter">
-                  {feature}
-                </span>
-              </div>
-            ))}
-          </div>
-        </div>
-
         <Link href={getDashboardUrl()}>
-          <Button variant="outline">Get started now</Button>
+          <Button variant="outline">Start splitting for free</Button>
         </Link>
       </div>
     </section>
