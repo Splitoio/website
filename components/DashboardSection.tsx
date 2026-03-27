@@ -11,38 +11,38 @@ const features = [
   {
     icon: "/images/flash.svg",
     iconAlt: "Flash icon",
-    title: "Instant Setup",
-    description: "Get your group up and running in moments",
+    title: "Multi-Currency Totals",
+    description: "Expenses in different currencies? Splito converts and totals them for you",
   },
   {
     icon: "/images/user-switch.svg",
     iconAlt: "User switch icon",
-    title: "Seamless Friend Sync",
-    description: "Add friends easily via seamless invites",
+    title: "Smart Reminders",
+    description: "Gently nudge friends who owe you, right from the dashboard",
   },
   {
     icon: "/images/dollar-circle.svg",
     iconAlt: "Dollar circle icon",
-    title: "One-Click Settlements",
-    description: "Settle balances on-chain with one tap in multiple tokens",
+    title: "Activity Timeline",
+    description: "See every expense, settlement, and change as it happens",
   },
 ];
 
 export default function DashboardSection() {
   return (
-    <section className="relative container mx-auto flex flex-col items-center py-12 md:py-24 px-4">
+    <section className="relative container mx-auto flex flex-col items-center py-16 md:py-24 lg:py-32 px-4">
       {/* Main Container */}
       <div className="relative w-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 lg:h-[350px]">
           <div className="flex flex-col gap-4 justify-start items-start">
             <h2 className="text-white font-medium text-2xl md:text-3xl lg:text-[44.4375px] leading-tight lg:leading-[1.188]">
-              Bring your whole Group Onchain
+              One dashboard. Every balance. Zero guesswork.
             </h2>
 
             <p className="text-[rgba(248,250,252,0.8)] font-inter font-normal text-sm md:text-base lg:text-[16.875px] leading-[1.6] max-w-full lg:max-w-[625px]">
-              Have a clean overview of all your groups at a glance, whether it's
-              all the splits added, your specific activity, or an overview of
-              all members. Get all of this with a clean and digestible UX.
+              See exactly where you stand across all your groups and friends.
+              Track expenses, spot outstanding balances, and know who to
+              nudge — all from a single screen that updates in real time.
             </p>
 
             <Link href={getDashboardUrl()}>

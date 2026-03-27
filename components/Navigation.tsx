@@ -12,17 +12,16 @@ export default function Navigation() {
         <Image src={SplitoLogo} alt="Splito" width={102} height={33} />
 
         <div className="flex items-center gap-3">
-        <Link href={getDashboardUrl("organization")}>
+          <Link href={getDashboardUrl("organization")}>
             <Button size="sm" variant="secondary">
-              Splito for Teams
+              Explore Teams
             </Button>
           </Link>
           <Link href={getDashboardUrl("")}>
             <Button size="sm" variant="primary">
-              Splito for Individuals
+              Try Splito Free
             </Button>
           </Link>
-         
         </div>
       </div>
     </nav>
