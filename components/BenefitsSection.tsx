@@ -10,23 +10,23 @@ import { cn } from "@/lib/utils";
 const benefits = [
   {
     number: 1,
-    title: "One Central Dashboard",
+    title: "Every group, one dashboard",
     description:
-      "Your net balance, group breakdowns, and friend debts in one place. No spreadsheets, no mental math.",
+      "Your net balance across all trips and currencies in one place. See exactly what you owe and to whom — no spreadsheet required.",
     image: "/images/dashboard-1.png",
   },
   {
     number: 2,
-    title: "Groups for every context",
+    title: "Lock the rate, skip the fight",
     description:
-      "Trip with friends, apartment with roommates, project with colleagues. Each group tracks its own expenses and members.",
+      "Capture the exchange rate the moment you spend — not when you settle. Everyone agrees on the number before the argument starts.",
     image: "/images/dashboard-2.png",
   },
   {
     number: 3,
-    title: "Settle on any chain",
+    title: "Settle from your wallet",
     description:
-      "Connect Aptos, Stellar, or multiple wallets. Settle in the token you prefer, on the chain you prefer.",
+      "Stellar and Aptos today. ETH and Solana coming. One wallet signature clears the balance — no wire fees, no waiting.",
     hasArrow: true,
     isLast: true,
     image: "/images/dashboard-3.png",
@@ -59,7 +59,7 @@ export default function BenefitsSection() {
         <div className="lg:p-20 lg:sticky lg:top-0 lg:h-[555.56px]">
           <div className="mb-6 md:mb-10">
             <h2 className="text-white text-2xl md:text-3xl lg:text-[45px] font-medium leading-[1.3] md:leading-[1.493] font-general-sans">
-              Built for how you actually split expenses
+              Built for trips where everyone&apos;s paying in a different currency
             </h2>
           </div>
 

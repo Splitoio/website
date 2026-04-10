@@ -8,8 +8,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Splito — Split Expenses with Friends & Teams | Multi-Currency, On-Chain Settlement",
-  description: "Track shared expenses, split costs across currencies, and settle up on-chain or off. Free for friend groups and teams.",
+  title: "Splito — Multi-Currency Expense Splitting for International Travelers",
+  description: "Log expenses in any currency, lock the exchange rate when you spend, and settle on-chain from your wallet. No conversion fights, no bank transfers.",
 };
 
 export default function RootLayout({

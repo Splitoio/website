@@ -27,9 +27,20 @@ export default function Footer() {
           </p>
         </div>
 
-        <span className="text-[rgba(248,250,252,0.3)] text-xs font-inter">
-          © {new Date().getFullYear()} Splito. All rights reserved.
-        </span>
+        <div className="flex flex-col items-center gap-3">
+          <span className="text-[rgba(248,250,252,0.3)] text-xs font-inter">
+            © {new Date().getFullYear()} Splito. All rights reserved.
+          </span>
+          <div className="flex items-center gap-4">
+            <a href="/privacy" className="text-[rgba(248,250,252,0.3)] hover:text-[rgba(248,250,252,0.7)] text-xs font-inter transition-colors">
+              Privacy Policy
+            </a>
+            <span className="text-[rgba(248,250,252,0.15)] text-xs">·</span>
+            <a href="/terms" className="text-[rgba(248,250,252,0.3)] hover:text-[rgba(248,250,252,0.7)] text-xs font-inter transition-colors">
+              Terms of Service
+            </a>
+          </div>
+        </div>
 
         {/* Social */}
         <a

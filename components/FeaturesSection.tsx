@@ -5,30 +5,30 @@ const features = [
   {
     icon: "/icons/flash-icon.svg",
     iconAlt: "Flash icon",
-    title: "1. Create your group",
+    title: "Log in any currency",
     description:
-      "Set up a group for your trip, apartment, team, or project in seconds. No wallet required to start.",
+      "Add expenses in THB, EUR, INR, USDC — whatever you're spending. No manual conversions before you enter anything.",
   },
   {
     icon: "/icons/user-add-icon.svg",
     iconAlt: "User add icon",
-    title: "2. Add expenses as they happen",
+    title: "Lock the rate when you spend",
     description:
-      "Log any expense, split it equally or custom, across any currency. Splito handles the math.",
+      "Set the exchange rate at the moment of the expense. No arguing about what the rate \"should have been\" three weeks later.",
   },
   {
     icon: "/icons/dashboard-edit-icon.svg",
     iconAlt: "Dashboard edit icon",
-    title: "3. See who owes what, always",
+    title: "See one balance, not five",
     description:
-      "Real-time balances across friends, groups, and currencies. Send reminders with one tap.",
+      "Totals converted to your home currency in real time. You owe $47 — not \"2,000 THB, €15, and $8.\"",
   },
   {
     icon: "/icons/cash-icon.svg",
     iconAlt: "Cash icon",
-    title: "4. Settle your way",
+    title: "Settle from your wallet",
     description:
-      "Pay back via your preferred method — settle on-chain with Aptos or Stellar, or mark it paid off-chain.",
+      "Connect Stellar or Aptos. Sign one transaction, debt cleared. No bank wire, no Venmo that doesn't work abroad.",
   },
 ];
 
@@ -38,12 +38,13 @@ export default function FeaturesSection() {
       {/* Section Header */}
       <div className="mb-8">
         <h2 className="text-white font-medium font-general-sans text-2xl md:text-3xl lg:text-[44.81px] leading-[1.3] md:leading-[1.74] mb-4 md:mb-6">
-          From split to settled in four steps
+          From first expense to fully settled
         </h2>
 
         <p className="text-slate-50/60 font-inter font-normal text-sm md:text-[15.13px] leading-[1.59] max-w-[500px]">
-          Stop juggling spreadsheets and IOUs. Splito tracks every expense,
-          calculates every balance, and settles every debt — automatically.
+          Most expense apps were built for single-currency friend groups.
+          Splito was built for the trip where everyone&apos;s paying in
+          something different.
         </p>
       </div>
 
