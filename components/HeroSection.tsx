@@ -41,16 +41,11 @@ export default function HeroSection() {
           </p>
         </div>
 
-        {/* CTA Buttons: Individuals & Teams */}
+        {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
           <Link href={getDashboardUrl()}>
             <Button size="lg" variant="primary">
               Try Splito Free
-            </Button>
-          </Link>
-          <Link href={getDashboardUrl("organization")}>
-            <Button size="lg" variant="secondary">
-              Explore Teams
             </Button>
           </Link>
         </div>

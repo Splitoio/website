@@ -14,11 +14,6 @@ export default function Navigation() {
         </Link>
 
         <div className="flex items-center gap-3">
-          <Link href={getDashboardUrl("organization")}>
-            <Button size="sm" variant="secondary">
-              Explore Teams
-            </Button>
-          </Link>
           <Link href={getDashboardUrl("")}>
             <Button size="sm" variant="primary">
               Try Splito Free

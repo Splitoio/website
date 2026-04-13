@@ -39,6 +39,10 @@ export default function Footer() {
             <a href="/terms" className="text-[rgba(248,250,252,0.3)] hover:text-[rgba(248,250,252,0.7)] text-xs font-inter transition-colors">
               Terms of Service
             </a>
+            <span className="text-[rgba(248,250,252,0.15)] text-xs">·</span>
+            <a href="https://business.splito.io" className="text-[rgba(248,250,252,0.3)] hover:text-[rgba(248,250,252,0.7)] text-xs font-inter transition-colors">
+              Splito for Business
+            </a>
           </div>
         </div>
 
