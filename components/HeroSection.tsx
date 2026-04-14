@@ -18,17 +18,17 @@ export default function HeroSection() {
         {/* Main Heading */}
         <div className="text-center pt-40 mb-8">
           <h1 className="text-white text-5xl md:text-6xl font-medium leading-tight font-general-sans max-w-4xl mx-auto">
-            Expense splitting that works across{" "}
-            <span className="text-[#09D1FD]">currencies</span>
+            The exchange rate argument{" "}
+            <span className="text-[#09D1FD]">is over.</span>
           </h1>
         </div>
 
         {/* Description */}
         <div className="text-center mb-10">
           <p className="text-[rgba(248,250,252,0.7)] text-lg font-normal leading-relaxed font-inter max-w-2xl mx-auto">
-            Log costs in any currency, lock the exchange rate at the time of
-            the expense, and settle the whole trip from your wallet. No
-            conversion fights. No bank transfers. No second app.
+            Log expenses in any currency, lock the rate when you spend, and
+            settle the whole trip from your wallet. No conversion fights. No
+            bank transfers. No second app.
           </p>
         </div>
 

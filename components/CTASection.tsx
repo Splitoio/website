@@ -21,7 +21,6 @@ export default function CTASection() {
       <div className="py-12 md:py-16 lg:py-24 flex flex-col items-center justify-center gap-6 md:gap-8 relative z-10 px-6 md:px-12">
         <p className="text-[#888] text-sm md:text-base font-normal leading-[1.7] text-center font-inter max-w-xl">
           Free to use. No daily expense caps. No paywalled currencies.
-          Multi-chain settlement built in.
         </p>
 
         <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-medium text-center font-general-sans leading-[1.2] max-w-2xl">
