@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
+@plugin "@tailwindcss/typography";
 
 @custom-variant dark (&:is(.dark *));
 /* @import url('https://fonts.googleapis.com/css2?family=General+Sans:wght@400;500;600;700&display=swap'); */
