@@ -1,0 +1,16 @@
+# Splito
+
+> Splito is two expense-logging utilities sharing the same infrastructure.
+
+This site is the product home and documentation surface for Splito. Use the links below as the canonical pages for current information about the product, positioning, and supporting content. Generated 2026-05-12 by founder-os.
+
+## Core pages
+
+- [Splito home](https://splito.io/): Main landing page
+- [Blog](https://splito.io/blog): All published posts and guides
+
+## Blog posts
+
+- [Multi-currency expense splitting is broken in every app I've tried](https://splito.io/blog/expense-splitting-multi-currency): Every multi-currency expense splitting app gets the same three things wrong, and has for over a decade. Here's what they miss and what the right math looks like.
+- [Split expenses crypto: what actually works in 2026 and what doesn't](https://splito.io/blog/split-expenses-crypto): Seven apps now let you split expenses and settle in crypto. Most pick a single chain and hope your friends are on it. Here's what each one actually does.
+- [The Splitwise alternative international travelers actually need](https://splito.io/blog/splitwise-alternative-international): Splitwise rates are off by 5%, settlement stops at the US border, the free tier caps you at 3 expenses a day. What international travelers actually need.
