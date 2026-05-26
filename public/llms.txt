@@ -1,0 +1,16 @@
+# Splito
+
+> Splito is one app, two modes sharing the same schema, payment engine, and on-chain settlement infrastructure.
+
+This site is the product home and documentation surface for Splito. Use the links below as the canonical pages for current information about the product, positioning, and supporting content. Generated 2026-05-25 by founder-os.
+
+## Core pages
+
+- [Splito home](https://splito.io/): Main landing page
+- [Blog](https://splito.io/blog): All published posts and guides
+
+## Positioning
+
+- Headline 1 — leads with Angle 1.1 (score 0.82) + step 5 [PAIN]:**
+- Headline 2 — leads with Angle 1.2 (score 0.74) + step 3 [PAIN]:**
+- Headline 3 — leads with Angle 1.3 (score 0.71) + receipts:**
