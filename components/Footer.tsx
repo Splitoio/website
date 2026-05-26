@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="flex flex-col gap-3">
           <Image src={SplitoIcon} alt="Splito" width={96} height={31} />
           <p className="text-[rgba(248,250,252,0.5)] text-sm font-inter max-w-[260px] leading-relaxed">
-            Making{" "}Crypto feel like{" "} Money.
+            Split anywhere. Settle on-chain.
           </p>
         </div>
 

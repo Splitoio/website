@@ -26,7 +26,7 @@ const benefits = [
     number: 3,
     title: "Settle from your wallet",
     description:
-      "Stellar and Aptos today. ETH and Solana coming. One wallet signature clears the balance — no wire fees, no waiting.",
+      "Connect your Stellar wallet. One signature clears the balance — no wire fees, no waiting.",
     hasArrow: true,
     isLast: true,
     image: "/images/dashboard-3.png",
