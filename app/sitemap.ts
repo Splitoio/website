@@ -1,6 +1,9 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://splito.io";
+// Canonical host is www: the apex (splito.io) 308-redirects to www.splito.io,
+// so sitemap <loc> entries must use www to match where pages actually serve
+// (avoids Google following a redirect chain for every indexed URL).
+const BASE_URL = "https://www.splito.io";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();

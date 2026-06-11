@@ -49,4 +49,4 @@ User-agent: Meta-ExternalAgent
 Allow: /
 
 # Sitemap (Google + Bing discover it from here as a fallback to GSC submission).
-Sitemap: https://splito.io/sitemap.xml
+Sitemap: https://www.splito.io/sitemap.xml
