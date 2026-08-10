@@ -18,17 +18,18 @@ export default function HeroSection() {
         {/* Main Heading */}
         <div className="text-center pt-40 mb-8">
           <h1 className="text-white text-5xl md:text-6xl font-medium leading-tight font-general-sans max-w-4xl mx-auto">
-            The exchange rate argument{" "}
-            <span className="text-[#09D1FD]">is over.</span>
+            Request money.{" "}
+            <span className="text-[#09D1FD]">They pay in any asset.</span>
           </h1>
         </div>
 
         {/* Description */}
         <div className="text-center mb-10">
           <p className="text-[rgba(248,250,252,0.7)] text-lg font-normal leading-relaxed font-inter max-w-2xl mx-auto">
-            Log expenses in any currency, lock the rate when you spend, and
-            settle the whole trip from your wallet. No conversion fights. No
-            bank transfers. No second app.
+            Pick your amount and the asset you want to receive — USDC or XLM on
+            Stellar. Send one link. Whoever is paying connects a Solana or
+            Stellar wallet and pays with what they already hold. They never need
+            a Splito account.
           </p>
         </div>
 

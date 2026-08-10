@@ -9,8 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Splito — Multi-Currency Expense Splitting for International Travelers",
-  description: "Log expenses in any currency, lock the exchange rate when you spend, and settle on-chain from your wallet. No conversion fights, no bank transfers.",
+  title: "Splito — Request Money, Get Paid in Any Asset",
+  description:
+    "Request USDC or XLM on Stellar with one link. Whoever pays connects a Solana or Stellar wallet and pays with the asset they already hold — no Splito account needed.",
 };
 
 export default function RootLayout({
