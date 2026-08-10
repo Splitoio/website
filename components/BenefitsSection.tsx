@@ -10,23 +10,23 @@ import { cn } from "@/lib/utils";
 const benefits = [
   {
     number: 1,
-    title: "Every group, one dashboard",
+    title: "One link does the whole job",
     description:
-      "Your net balance across all trips and currencies in one place. See exactly what you owe and to whom — no spreadsheet required.",
+      "Amount, destination asset, an optional name, an optional expiry. Splito gives you a public link and a QR code — that is the entire setup.",
     image: "/images/dashboard-1.png",
   },
   {
     number: 2,
-    title: "Lock the rate, skip the fight",
+    title: "The payer brings their own asset",
     description:
-      "Capture the exchange rate the moment you spend — not when you settle. Everyone agrees on the number before the argument starts.",
+      "They connect a Solana or Stellar wallet, pick a source asset, and see the quote before they sign. Routed payments show the slippage band up front.",
     image: "/images/dashboard-2.png",
   },
   {
     number: 3,
-    title: "Settle from your wallet",
+    title: "Track it through to settled",
     description:
-      "Connect your Stellar wallet. One signature clears the balance — no wire fees, no waiting.",
+      "Open, partially paid, settled, expired, cancelled. Split a request across your group and each member gets their own link, so you can see who is still outstanding.",
     hasArrow: true,
     isLast: true,
     image: "/images/dashboard-3.png",
@@ -59,7 +59,7 @@ export default function BenefitsSection() {
         <div className="lg:p-20 lg:sticky lg:top-0 lg:h-[555.56px]">
           <div className="mb-6 md:mb-10">
             <h2 className="text-white text-2xl md:text-3xl lg:text-[45px] font-medium leading-[1.3] md:leading-[1.493] font-general-sans">
-              Built for trips where everyone&apos;s paying in a different currency
+              Built for getting paid when nobody holds the same asset
             </h2>
           </div>
 

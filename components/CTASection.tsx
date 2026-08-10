@@ -20,15 +20,15 @@ export default function CTASection() {
 
       <div className="py-12 md:py-16 lg:py-24 flex flex-col items-center justify-center gap-6 md:gap-8 relative z-10 px-6 md:px-12">
         <p className="text-[#888] text-sm md:text-base font-normal leading-[1.7] text-center font-inter max-w-xl">
-          Free to use. No daily expense caps. No paywalled currencies.
+          No account needed for whoever is paying you.
         </p>
 
         <h2 className="text-white text-3xl md:text-4xl lg:text-5xl font-medium text-center font-general-sans leading-[1.2] max-w-2xl">
-          Your next trip doesn&apos;t need a settlement spreadsheet.
+          Stop telling people which asset to go buy first.
         </h2>
 
         <Link href={getDashboardUrl()}>
-          <Button variant="outline">Start splitting for free</Button>
+          <Button variant="outline">Create a request</Button>
         </Link>
       </div>
     </section>

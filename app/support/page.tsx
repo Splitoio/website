@@ -30,7 +30,7 @@ export default function SupportPage() {
           </h1>
 
           <p className="mt-4 text-base md:text-lg leading-relaxed text-[rgba(248,250,252,0.6)]">
-            Questions about splitting expenses, your account, or anything else in
+            Questions about a payment request, your account, or anything else in
             Splito? Our team is here to help. Send us an email and we&apos;ll get
             back to you, usually within 1–2 business days.
           </p>

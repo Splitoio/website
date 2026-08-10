@@ -5,30 +5,30 @@ const features = [
   {
     icon: "/icons/flash-icon.svg",
     iconAlt: "Flash icon",
-    title: "Log in any currency",
+    title: "Ask for what you want",
     description:
-      "Add expenses in THB, EUR, INR, USDC — whatever you're spending. No manual conversions before you enter anything.",
+      "Set the amount and the asset you want to land — USDC or XLM on Stellar. Add a name and an expiry if the request needs one.",
   },
   {
     icon: "/icons/user-add-icon.svg",
     iconAlt: "User add icon",
-    title: "Lock the rate when you spend",
+    title: "Send one link",
     description:
-      "Set the exchange rate at the moment of the expense. No arguing about what the rate \"should have been\" three weeks later.",
+      "Copy it, show the QR code, or send it over WhatsApp, Telegram, or email. The payer opens the link as a guest — no account, no install.",
   },
   {
     icon: "/icons/dashboard-edit-icon.svg",
     iconAlt: "Dashboard edit icon",
-    title: "See one balance, not five",
+    title: "They pay from what they hold",
     description:
-      "Totals converted to your home currency in real time. You owe $47 — not \"2,000 THB, €15, and $8.\"",
+      "Solana and Stellar assets both work as a source. Splito quotes the conversion, shows the slippage band, and the payer signs once.",
   },
   {
     icon: "/icons/cash-icon.svg",
     iconAlt: "Cash icon",
-    title: "Settle from your wallet",
+    title: "Watch it settle",
     description:
-      "Connect Stellar or Aptos. Sign one transaction, debt cleared. No bank wire, no Venmo that doesn't work abroad.",
+      "Open, partially paid, settled, expired, cancelled. Split a request across your group and you see exactly who has paid.",
   },
 ];
 
@@ -38,13 +38,12 @@ export default function FeaturesSection() {
       {/* Section Header */}
       <div className="mb-8">
         <h2 className="text-white font-medium font-general-sans text-2xl md:text-3xl lg:text-[44.81px] leading-[1.3] md:leading-[1.74] mb-4 md:mb-6">
-          From first expense to fully settled
+          From a link to settled
         </h2>
 
         <p className="text-slate-50/60 font-inter font-normal text-sm md:text-[15.13px] leading-[1.59] max-w-[500px]">
-          Most expense apps were built for single-currency friend groups.
-          Splito was built for the trip where everyone&apos;s paying in
-          something different.
+          Most crypto payment tools make the payer go find the right asset
+          first. Splito routes from whatever they already have.
         </p>
       </div>
 
