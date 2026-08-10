@@ -23,8 +23,8 @@ const features = [
   {
     icon: "/images/dollar-circle.svg",
     iconAlt: "Dollar circle icon",
-    title: "Activity Timeline",
-    description: "See every payment and change in a group, in order",
+    title: "Payer Status",
+    description: "See who's paid, who's pending, and who's late, at a glance.",
   },
 ];
 

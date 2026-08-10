@@ -26,7 +26,7 @@ const benefits = [
     number: 3,
     title: "Track it through to settled",
     description:
-      "Open, partially paid, settled, expired, cancelled. Split a request across your group and each member gets their own link, so you can see who is still outstanding.",
+      "Open, partially paid, settled, expired, cancelled. Split a request across your group and see who is still outstanding, right on the request.",
     hasArrow: true,
     isLast: true,
     image: "/images/dashboard-3.png",
