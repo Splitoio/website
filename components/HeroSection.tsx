@@ -33,16 +33,13 @@ export default function HeroSection() {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-4">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
           <Link href={getDashboardUrl()}>
             <Button size="lg" variant="primary">
               Try Splito Free
             </Button>
           </Link>
         </div>
-        <p className="text-center text-[rgba(248,250,252,0.45)] text-sm font-inter mb-12">
-          Free for personal use · No credit card required
-        </p>
 
         {/* Dashboard Preview */}
         <div className="flex justify-center relative top-32">
