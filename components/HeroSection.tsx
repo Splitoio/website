@@ -26,7 +26,7 @@ export default function HeroSection() {
         {/* Description */}
         <div className="text-center mb-10">
           <p className="text-[rgba(248,250,252,0.7)] text-lg font-normal leading-relaxed font-inter max-w-2xl mx-auto">
-            Pick your amount and the asset you want to receive — USDC or XLM on
+            Pick your amount and the asset you want to receive: USDC or XLM on
             Stellar. Send one link. Whoever is paying connects a Solana or
             Stellar wallet and pays with what they already hold. They never need
             a Splito account.

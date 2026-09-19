@@ -79,11 +79,11 @@ Splitwise was built for a single-currency American group splitting a dinner bill
 
 ## Sources
 
-- [Splitwise feedback — currency rate 5% off Google's](https://feedback.splitwise.com/forums/162446-general/suggestions/15248577-currency-rate)
-- [Splitwise feedback — improve multi-currency handling](https://feedback.splitwise.com/forums/162446-general/suggestions/6765166-improve-the-way-splitwise-handles-multi-currency)
-- [Splitwise feedback — currency conversion request from 2019](https://feedback.splitwise.com/forums/162446-general/suggestions/3323194-currency-conversion)
-- [Splitty — Splitwise Free Limits in 2026](https://splittyapp.com/learn/splitwise-free-limits/)
-- [Artem Russakovskii on X — Splitwise paywall exodus](https://x.com/ArtemR/status/1740150704268849568)
-- [PartyTab — 7 Best Splitwise Alternatives 2026](https://partytab.app/blog/best-splitwise-alternatives)
-- [SquadTrip — Best Splitwise Alternatives for Group Travel](https://www.squadtrip.com/guides/top-splitwise-alternatives-for-group-travel-expenses/)
-- [Splitterup — 7 Best Expense Splitting Apps 2026](https://www.splitterup.app/blog/best-expense-splitting-apps)
+- [Splitwise feedback: currency rate 5% off Google's](https://feedback.splitwise.com/forums/162446-general/suggestions/15248577-currency-rate)
+- [Splitwise feedback: improve multi-currency handling](https://feedback.splitwise.com/forums/162446-general/suggestions/6765166-improve-the-way-splitwise-handles-multi-currency)
+- [Splitwise feedback: currency conversion request from 2019](https://feedback.splitwise.com/forums/162446-general/suggestions/3323194-currency-conversion)
+- [Splitty: Splitwise Free Limits in 2026](https://splittyapp.com/learn/splitwise-free-limits/)
+- [Artem Russakovskii on X: Splitwise paywall exodus](https://x.com/ArtemR/status/1740150704268849568)
+- [PartyTab: 7 Best Splitwise Alternatives 2026](https://partytab.app/blog/best-splitwise-alternatives)
+- [SquadTrip: Best Splitwise Alternatives for Group Travel](https://www.squadtrip.com/guides/top-splitwise-alternatives-for-group-travel-expenses/)
+- [Splitterup: 7 Best Expense Splitting Apps 2026](https://www.splitterup.app/blog/best-expense-splitting-apps)

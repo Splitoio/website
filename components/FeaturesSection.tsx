@@ -7,14 +7,14 @@ const features = [
     iconAlt: "Flash icon",
     title: "Ask for what you want",
     description:
-      "Set the amount and the asset you want to land — USDC or XLM on Stellar. Add a name and an expiry if the request needs one.",
+      "Set the amount and the asset you want to land: USDC or XLM on Stellar. Add a name and an expiry if the request needs one.",
   },
   {
     icon: "/icons/user-add-icon.svg",
     iconAlt: "User add icon",
     title: "Send one link",
     description:
-      "Copy it, show the QR code, or send it over WhatsApp, Telegram, or email. The payer opens the link as a guest — no account, no install.",
+      "Copy it, show the QR code, or send it over WhatsApp, Telegram, or email. The payer opens the link as a guest: no account, no install.",
   },
   {
     icon: "/icons/dashboard-edit-icon.svg",

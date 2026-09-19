@@ -18,11 +18,11 @@ export async function generateMetadata({
   const post = getPostBySlug(slug);
 
   if (!post) {
-    return { title: "Not found — Splito" };
+    return { title: "Not found: Splito" };
   }
 
   return {
-    title: `${post.title} — Splito`,
+    title: `${post.title}: Splito`,
     description: post.description,
   };
 }
