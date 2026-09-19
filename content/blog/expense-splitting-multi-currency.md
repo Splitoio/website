@@ -87,12 +87,12 @@ For more on this, the [Splitwise alternative for international travelers](/blog/
 
 ## Sources
 
-- [Splitwise feedback — currency rate 5% off Google's](https://feedback.splitwise.com/forums/162446-general/suggestions/15248577-currency-rate)
-- [Splitwise feedback — historical exchange rate request](https://feedback.splitwise.com/forums/162446-general/suggestions/7710975-use-historical-exchange-rate-data-via-google-or-f)
-- [Splitwise feedback — improve multi-currency handling (Vietnam trip)](https://feedback.splitwise.com/forums/162446-general/suggestions/6765166-improve-the-way-splitwise-handles-multi-currency)
-- [Splitwise feedback — cross-currency netting request from 2019](https://feedback.splitwise.com/forums/162446-general/suggestions/3323194-currency-conversion)
-- [Splitwise feedback — Pro broke historical conversions](https://feedback.splitwise.com/forums/162446-general/suggestions/13864530-make-the-currency-conversion-function-better)
-- [Splitwise feedback — predetermined billing currency request](https://feedback.splitwise.com/forums/162446-general/suggestions/17686630-create-a-billing-currency-within-a-group)
-- [PilotPlans — Splitwise settlement gap review](https://www.pilotplans.com/blog/splitwise-review)
-- [Splid — multi-currency feature page](https://splid.app/english)
-- [SquadTrip — Splitwise alternatives for group travel](https://www.squadtrip.com/guides/top-splitwise-alternatives-for-group-travel-expenses/)
+- [Splitwise feedback: currency rate 5% off Google's](https://feedback.splitwise.com/forums/162446-general/suggestions/15248577-currency-rate)
+- [Splitwise feedback: historical exchange rate request](https://feedback.splitwise.com/forums/162446-general/suggestions/7710975-use-historical-exchange-rate-data-via-google-or-f)
+- [Splitwise feedback: improve multi-currency handling (Vietnam trip)](https://feedback.splitwise.com/forums/162446-general/suggestions/6765166-improve-the-way-splitwise-handles-multi-currency)
+- [Splitwise feedback: cross-currency netting request from 2019](https://feedback.splitwise.com/forums/162446-general/suggestions/3323194-currency-conversion)
+- [Splitwise feedback: Pro broke historical conversions](https://feedback.splitwise.com/forums/162446-general/suggestions/13864530-make-the-currency-conversion-function-better)
+- [Splitwise feedback: predetermined billing currency request](https://feedback.splitwise.com/forums/162446-general/suggestions/17686630-create-a-billing-currency-within-a-group)
+- [PilotPlans: Splitwise settlement gap review](https://www.pilotplans.com/blog/splitwise-review)
+- [Splid: multi-currency feature page](https://splid.app/english)
+- [SquadTrip: Splitwise alternatives for group travel](https://www.squadtrip.com/guides/top-splitwise-alternatives-for-group-travel-expenses/)

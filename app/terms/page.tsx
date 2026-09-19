@@ -2,7 +2,7 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Terms of Service — Splito",
+  title: "Terms of Service: Splito",
   description: "Terms for using Splito.",
 };
 
@@ -49,7 +49,7 @@ export default function TermsPage() {
                 "Keep your account credentials secure.",
               ].map((item, i) => (
                 <li key={i} className="flex gap-3">
-                  <span className="text-[#09D1FD] mt-1 shrink-0">—</span>
+                  <span className="text-[#09D1FD] mt-1 shrink-0">•</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -60,7 +60,7 @@ export default function TermsPage() {
             <h2 className="text-white text-xl font-medium font-general-sans mb-4">Exchange rates</h2>
             <p>
               Exchange rates in Splito are entered by you at the time of the expense. We
-              store and display the rate you set — we do not pull live market rates or
+              store and display the rate you set; we do not pull live market rates or
               modify your entries. The accuracy of the rate you record is your
               responsibility. Splito does not provide foreign exchange services or
               financial advice.
@@ -75,12 +75,12 @@ export default function TermsPage() {
             </p>
             <ul className="mt-3 space-y-2 list-none">
               {[
-                "Irreversible — blockchain transactions cannot be undone once confirmed.",
-                "Your responsibility — you control your wallet and private keys. We never have access to them.",
-                "Public — transaction data is visible on the public blockchain.",
+                "Irreversible: blockchain transactions cannot be undone once confirmed.",
+                "Your responsibility: you control your wallet and private keys. We never have access to them.",
+                "Public: transaction data is visible on the public blockchain.",
               ].map((item, i) => (
                 <li key={i} className="flex gap-3">
-                  <span className="text-[#09D1FD] mt-1 shrink-0">—</span>
+                  <span className="text-[#09D1FD] mt-1 shrink-0">•</span>
                   <span>{item}</span>
                 </li>
               ))}
@@ -94,7 +94,7 @@ export default function TermsPage() {
           <section>
             <h2 className="text-white text-xl font-medium font-general-sans mb-4">No financial advice</h2>
             <p>
-              Nothing in Splito — balances, exchange rates, settlement amounts — constitutes
+              Nothing in Splito (balances, exchange rates, settlement amounts) constitutes
               financial, legal, or tax advice. Consult a qualified professional for anything
               that matters financially.
             </p>

@@ -2,7 +2,7 @@ import Navigation from "../../components/Navigation";
 import Footer from "../../components/Footer";
 
 export const metadata = {
-  title: "Privacy Policy — Splito",
+  title: "Privacy Policy: Splito",
   description: "How Splito handles your data.",
 };
 
@@ -29,8 +29,8 @@ export default function PrivacyPage() {
             <p>
               Splito is an early-stage project. We built it because splitting expenses across
               currencies is genuinely painful, and we wanted a better tool. This policy explains
-              what data we collect to make the service work, and what we do — and don&apos;t do
-              — with it.
+              what data we collect to make the service work, and what we do (and don&apos;t do)
+              with it.
             </p>
             <p className="mt-3">
               Short version: we collect what we need to run the app, we don&apos;t sell it, and
@@ -49,7 +49,7 @@ export default function PrivacyPage() {
                 ["Usage", "Basic app interactions (pages visited, actions taken) to understand how the product is being used. We do not track you across other sites."],
               ].map(([title, desc]) => (
                 <li key={title} className="flex gap-3">
-                  <span className="text-[#09D1FD] mt-1 shrink-0">—</span>
+                  <span className="text-[#09D1FD] mt-1 shrink-0">•</span>
                   <span><span className="text-white font-medium">{title}:</span> {desc}</span>
                 </li>
               ))}
@@ -61,12 +61,12 @@ export default function PrivacyPage() {
             <p>We use the data above to:</p>
             <ul className="mt-3 space-y-2 list-none">
               {[
-                "Operate the service — calculate balances, show group expenses, send settlement transactions.",
+                "Operate the service: calculate balances, show group expenses, send settlement transactions.",
                 "Authenticate your account.",
                 "Improve the product based on how it&apos;s being used.",
               ].map((item, i) => (
                 <li key={i} className="flex gap-3">
-                  <span className="text-[#09D1FD] mt-1 shrink-0">—</span>
+                  <span className="text-[#09D1FD] mt-1 shrink-0">•</span>
                   <span dangerouslySetInnerHTML={{ __html: item }} />
                 </li>
               ))}
@@ -78,7 +78,7 @@ export default function PrivacyPage() {
             <h2 className="text-white text-xl font-medium font-general-sans mb-4">On-chain transactions</h2>
             <p>
               When you settle a balance via Stellar or Aptos, the transaction is recorded on a
-              public blockchain. This data — including wallet addresses and amounts — is publicly
+              public blockchain. This data (including wallet addresses and amounts) is publicly
               visible to anyone. We do not control blockchain data and cannot delete or modify it.
               This is inherent to how blockchains work.
             </p>
@@ -96,7 +96,7 @@ export default function PrivacyPage() {
           <section>
             <h2 className="text-white text-xl font-medium font-general-sans mb-4">Third parties</h2>
             <p>
-              We use a small number of third-party services to run the app — authentication,
+              We use a small number of third-party services to run the app: authentication,
               hosting, and email delivery. These services process data only to the extent needed
               to provide their function. We do not share your expense or financial data with them
               beyond what is technically required.
@@ -112,7 +112,7 @@ export default function PrivacyPage() {
             <p>
               We retain your data for as long as your account is active. If you want your account
               and data deleted, reach out to us and we&apos;ll take care of it. On-chain
-              transaction records cannot be deleted — that&apos;s outside our control.
+              transaction records cannot be deleted; that&apos;s outside our control.
             </p>
           </section>
 
@@ -137,7 +137,7 @@ export default function PrivacyPage() {
             <h2 className="text-white text-xl font-medium font-general-sans mb-4">Changes to this policy</h2>
             <p>
               We&apos;ll update this page if something material changes. Since this is an early
-              project, the service itself is evolving — and this policy may evolve with it.
+              project, the service itself is evolving, and this policy may evolve with it.
             </p>
           </section>
 

@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Splito — Request Money, Get Paid in Any Asset",
+  title: "Splito: Request Money, Get Paid in Any Asset",
   description:
-    "Request USDC or XLM on Stellar with one link. Whoever pays connects a Solana or Stellar wallet and pays with the asset they already hold — no Splito account needed.",
+    "Request USDC or XLM on Stellar with one link. Whoever pays connects a Solana or Stellar wallet and pays with the asset they already hold; no Splito account needed.",
 };
 
 export default function RootLayout({

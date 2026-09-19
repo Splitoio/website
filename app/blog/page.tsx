@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import { getAllPosts } from "@/lib/blog";
 
 export const metadata: Metadata = {
-  title: "Blog — Splito",
+  title: "Blog: Splito",
   description:
     "Notes from the founder on splitting expenses, traveling with friends, and settling money across borders.",
 };

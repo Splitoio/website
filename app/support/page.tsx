@@ -7,7 +7,7 @@ const SUPPORT_EMAIL = "support@1417labs.com";
 const MAILTO = `mailto:${SUPPORT_EMAIL}?subject=${encodeURIComponent("Splito Support")}`;
 
 export const metadata: Metadata = {
-  title: "Support — Splito",
+  title: "Support: Splito",
   description: `Need help with Splito? Contact our support team at ${SUPPORT_EMAIL} and we'll get back to you, usually within 1–2 business days.`,
 };
 

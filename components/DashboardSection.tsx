@@ -12,7 +12,7 @@ const features = [
     icon: "/images/flash.svg",
     iconAlt: "Flash icon",
     title: "Live Request Status",
-    description: "Open, partially paid, settled, expired, or cancelled — updated as payments land",
+    description: "Open, partially paid, settled, expired, or cancelled; updated as payments land",
   },
   {
     icon: "/images/user-switch.svg",

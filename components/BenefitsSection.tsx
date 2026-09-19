@@ -12,7 +12,7 @@ const benefits = [
     number: 1,
     title: "One link does the whole job",
     description:
-      "Amount, destination asset, an optional name, an optional expiry. Splito gives you a public link and a QR code — that is the entire setup.",
+      "Amount, destination asset, an optional name, an optional expiry. Splito gives you a public link and a QR code; that is the entire setup.",
     image: "/images/dashboard-1.png",
   },
   {
